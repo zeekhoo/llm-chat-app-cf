@@ -81,6 +81,11 @@ async function handleChatRequest(
         //   skipCache: false,      // Set to true to bypass cache
         //   cacheTtl: 3600,        // Cache time-to-live in seconds
         // },
+        gateway: {
+          id: "lumon-ai-gateway",
+          skipCache: true,
+          cacheTtl: 3600,  // Cache time-to-live in seconds
+        },
       },
     );
 
